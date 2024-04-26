@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let todos = []
 let condition='true'
@@ -21,5 +22,6 @@ todos.push(addtask.todo)
 
 condition = addtask.addmore
 console.log(todos)
+
 
 }
