@@ -20,8 +20,6 @@ while(condition)
 ])
 todos.push(addtask.todo)
 
-condition = addtask.addmore
+condition = addtask.addmore;
 console.log(todos)
-
-
 }
